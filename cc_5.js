@@ -23,3 +23,11 @@ let order = {
         console.log(`Status: ${this.status}`);
     }};
 order.displayOrder(); // logs the orderId, totalAmount, and status 
+
+// Task 3: Array Manipulation 
+let cartItems = ["Candy", "Chips","Milk"];
+cartItems.push('Eggs'); // added Eggs to the array using push
+cartItems.pop('Eggs'); // removed Eggs by using pop
+cartItems.unshift("Cookies"); // added Cookies at the beginning using unshift 
+cartItems.shift('Cookies'); // removed Cookies by using shift
+console.log(cartItems); // logs the new updated array 
