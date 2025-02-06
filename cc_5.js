@@ -31,3 +31,10 @@ cartItems.pop('Eggs'); // removed Eggs by using pop
 cartItems.unshift("Cookies"); // added Cookies at the beginning using unshift 
 cartItems.shift('Cookies'); // removed Cookies by using shift
 console.log(cartItems); // logs the new updated array 
+
+// Task 4: Map Method 
+// Declared price array 
+let prices = [100, 200, 300];
+let discount = 0.1; // Declared a 10% discount 
+let discountedPrices = prices.map(prices => prices * discount); // Used .map() to apply the discount on prices 
+console.log(discountedPrices); // logged the new discounted prices 
