@@ -63,6 +63,15 @@ function calculateTax(amount, taxRate) {
     return amount * taxRate 
 }
 let amount = 100; // Declared the amount 
-let taxRate = 0.07; // Declared the tax rate 
+let taxRate = 0.1; // Declared the tax rate 
 let taxAmount = calculateTax(amount, taxRate); 
 console.log(`Calculated Taxes: $${taxAmount}`); // logged the calculated tax amount 
+
+// Task 9: Function Expression 
+// created a function to apply discounts 
+function applyDiscount(price, discounts) {
+    return price * discounts 
+}
+let price = 150; // Declared price 
+let discounts = 0.05; // Declared discounts
+console.log(`Discounted Price: $${applyDiscount(price, discounts)}`); // logged the discounted price 
