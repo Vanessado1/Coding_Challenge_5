@@ -75,3 +75,9 @@ function applyDiscount(price, discounts) {
 let price = 150; // Declared price 
 let discounts = 0.05; // Declared discounts
 console.log(`Discounted Price: $${applyDiscount(price, discounts)}`); // logged the discounted price 
+
+// Task 10: Arrow Function 
+// created arrow function to calculate discount 
+const calculatePoints = (purchaseAmount) => Math.floor(purchaseAmount / 10);
+let purchaseAmount = 200; // Declared purchase amount
+console.log(`Points Collected: ${calculatePoints(purchaseAmount)}`); // logged the points 
