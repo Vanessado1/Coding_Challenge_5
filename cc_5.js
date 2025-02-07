@@ -50,3 +50,9 @@ console.log(stock); // logged the new inventory
 let sales = [500, 300, 200, 400];
 let totalRev = sales.reduce((sum, sales) => sum + sales); // Calculated total revenue using .reduce 
 console.log('Total Revenue:',totalRev); // logged the total revenue 
+
+// Task 7: find() Method 
+// Declared customer array 
+let customers = ['ALice', 'Bob', 'Charlie', 'David'];
+let name = customers.find(customer => customer === 'Charlie'); // Used .find() to find the name Charlie 
+console.log(name); 
